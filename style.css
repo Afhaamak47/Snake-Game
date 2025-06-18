@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  position: absolute;
+  bottom: 150px;
+  left: 450px;
+  font-size: 20px;
+  color: #ffcc00;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+canvas {
+  background-color: #222;
+  border: 3px solid #00ffcc;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 20px #00ffcc;
+}
+
+#score {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+#over {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #ff4444;
+}
+
+.buttons {
+  margin-top: 8px;
+}
+
+button {
+  background-color: #00ffcc;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #00cc99;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+  background-color: #00997a;
+}

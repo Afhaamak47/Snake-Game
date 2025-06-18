@@ -27,6 +27,3 @@ A classic Snake Game built using HTML5 Canvas, CSS3, and JavaScript.
 2. Open `index.html` in your browser
 3. Play the game!
 
-## 📷 Screenshot
-
-_Add a screenshot here if you'd like_
